@@ -4,6 +4,8 @@
 
 
 #include <iostream>
+#include <string>
+#include <fstream>
 using namespace std;
 
 class punkt
@@ -17,10 +19,11 @@ public:
 	void zmiana(int a, int b);
 	void drukuj();
 	void operator+=(punkt&tmp);
-	//void operator=(punkt& tmp);
+	/*punkt& operator=(punkt& tmp);*/
 	bool operator==(punkt& tmp);
 	punkt operator+(punkt& tmp);
-	std::ostream& operator<<(ostream& os,const punkt& tmp);
+	friend std::ostream& operator << (ostream& output, const punkt pkt);
+	
 };
 
 
@@ -32,7 +35,14 @@ private:
 public:
 	tablica();
 	tablica(int* x, int* y,int dlugosc);
-
+	~tablica();
+	void wyswietl();
+	void operator =(tablica& tmp);
+	bool operator ==(tablica& tmp);
+	friend std::ostream& operator<<(ostream& output,  tablica tab);
+	void operator +=(tablica& tmp);
+	void operator [](int i);
+	tablica(string plik);
 
 };
 
