@@ -1,0 +1,7 @@
+﻿  punkt.cpp
+C:\NewRepo\Pk_Lab1\Pk_Lab1\punkt.cpp(13,34): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  tablica.cpp
+  Generating Code...
+C:\NewRepo\Pk_Lab1\Pk_Lab1\punkt.cpp(13,40): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\NewRepo\Pk_Lab1\Pk_Lab1\punkt.cpp(65): warning C4172: returning address of local variable or temporary: wynik
+  Pk_Lab1.vcxproj -> C:\NewRepo\Pk_Lab1\Debug\Pk_Lab1.exe
