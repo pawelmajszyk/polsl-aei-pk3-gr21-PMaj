@@ -39,9 +39,9 @@ public:
 	void wyswietl();
 	void operator =(tablica& tmp);
 	bool operator ==(tablica& tmp);
-	friend std::ostream& operator<<(ostream& output,  tablica tab);
+	friend std::ostream& operator<<(ostream& output,  tablica& tab);
 	void operator +=(tablica& tmp);
-	void operator [](int i);
+	punkt operator [](int i);
 	tablica(string plik);
 
 };

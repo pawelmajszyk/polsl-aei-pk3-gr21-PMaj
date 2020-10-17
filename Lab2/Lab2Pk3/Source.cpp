@@ -52,8 +52,10 @@ int main()
 	//	cout << "Takie same" << endl;   Operator == dziala
 	//}
 	/*punkt pkt;
-	tablica wyjscie(x, y, 3);     << dla tablicy nie dziala
-	cout << wyjscie;*/
+	*/
+
+	//tablica wyjscie(x, y, 3);   Operator << dziala dla tablicy
+	//cout << wyjscie;
 
 	// test +=
 	/*tablica t1(x, y, 3);

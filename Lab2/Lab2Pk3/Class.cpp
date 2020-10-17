@@ -108,12 +108,14 @@ bool tablica::operator ==(tablica& tmp)
 	return false;
 
 }
-//std::ostream& operator<<(ostream& output,  tablica tablica) Do poprawy
-//{
-//	for
-//	output << tablica.tab[0];
-//	return output;
-//}
+std::ostream& operator<<(ostream& output,  tablica& tablica) 
+{
+	for (int i = 0; i < tablica.dl; ++i)
+	{
+		output << tablica.tab[i] << endl;
+	}
+	return output;
+}
 void tablica::operator+=(tablica& tmp)
 {
 	for (int i = 0; i < this->dl; ++i)
@@ -121,9 +123,9 @@ void tablica::operator+=(tablica& tmp)
 		this->tab[i] += tmp.tab[i];
 	}
 }
-void  tablica::operator [](int i)
+punkt tablica::operator [](int i)
 {
-	cout<<this->tab[i];
+	return this->tab[i];
 }
 
 tablica::tablica(string pliks) // Zakladam, ze pierwsza liczba w pliku to jest Liczba punktow a nastepnie pobieram x i y  i dodaje je do tablicy

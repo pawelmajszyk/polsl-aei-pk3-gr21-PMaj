@@ -1,0 +1,8 @@
+﻿  Class.cpp
+C:\Repos\polsl-aei-pk3-gr21-PMaj\Lab3\Lab3\Class.cpp(68,16): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Repos\polsl-aei-pk3-gr21-PMaj\Lab3\Lab3\Class.cpp(69,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Repos\polsl-aei-pk3-gr21-PMaj\Lab3\Lab3\Class.cpp(74,15): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Source.cpp
+  Generating Code...
+C:\Repos\polsl-aei-pk3-gr21-PMaj\Lab3\Lab3\Class.cpp(75,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Lab3.vcxproj -> C:\Repos\polsl-aei-pk3-gr21-PMaj\Lab3\Debug\Lab3.exe
